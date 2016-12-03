@@ -2,6 +2,7 @@
 
 buildscript {
 	repositories {
+		maven { url "http://123.57.250.150:8081/nexus/content/groups/public/" }
 		mavenCentral()
 	}
 	dependencies {
@@ -17,6 +18,7 @@ apply plugin: 'idea'
 apply plugin: 'spring-boot'
 
 repositories {
+	maven { url "http://123.57.250.150:8081/nexus/content/groups/public/" }
 	mavenCentral()
 }
 
